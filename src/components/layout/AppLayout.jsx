@@ -91,7 +91,7 @@ export default function AppLayout() {
       )}
 
       {/* Persistent / Responsive Sidebar */}
-      <aside className={`app-sidebar ${mobileOpen ? 'mobile-sidebar-open' : ''}`}>
+      <aside className={`app-sidebar ${mobileOpen ? 'mobile-open mobile-sidebar-open' : ''}`}>
         {/* Brand Header */}
         <div className="sidebar-brand-wrapper">
           <Link to="/dashboard" className="sidebar-brand" onClick={closeMobile}>
